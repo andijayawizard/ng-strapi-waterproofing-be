@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_related_blogs",
+  "info": {
+    "displayName": "relatedBlog"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}
